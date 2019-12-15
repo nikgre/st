@@ -1,2 +1,6 @@
 //ignore vscode settings
 .vscode/
+
+//ignore st and x.o (specific for each device)
+st
+x.o
