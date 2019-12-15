@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
 Name=st
-Comment=simple-terminal emulator for X
+Comment=simple-terminal emulator for X | fork by nikgre
 Icon=utilities-terminal
 Exec=st
 Categories=System;TerminalEmulator
