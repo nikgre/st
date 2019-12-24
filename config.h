@@ -96,6 +96,7 @@ unsigned int tabspaces = 8;
 
 /* bg opacity */
 float alpha = 0.8;
+float alphaUnfocussed = 0.6;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
@@ -195,7 +196,8 @@ ResourcePref resources[] = {
 			{ "bellvolume",   INTEGER, &bellvolume },
 			{ "cwscale",      FLOAT,   &cwscale },
 			{ "chscale",      FLOAT,   &chscale },
-			{ "alpha",		  FLOAT,   &alpha },
+			{ "alpha",	  FLOAT,   &alpha },
+			{ "alphaUnfocussed",	FLOAT,	&alphaUnfocussed},
 };
 
 /*
