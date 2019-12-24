@@ -3,4 +3,4 @@
 
 //ignore st and x.o (specific for each device)
 st
-x.o
+*.o
